@@ -11,7 +11,7 @@ const SingleContent = ({
   vote_average,
 }) => {
   return (
-    <div>
+    <div className="media">
       <img
         className="poster"
         src={poster ? `${img_300}/${poster}` : unavailable}
