@@ -15,7 +15,7 @@ const SingleContent = ({
     <div className="media">
       <Badge
         badgeContent={vote_average}
-        color={vote_average > 6 ? "primary" : "secondary"}
+        color={vote_average >= 6 ? "primary" : "secondary"}
       />
       <img
         className="poster"
