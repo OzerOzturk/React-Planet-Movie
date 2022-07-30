@@ -1,6 +1,35 @@
-# Getting Started with Create React App
+# React Planet Movie
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Movies and TV Series App 📽
+- You can reach out to the trending movies
+- Watch the trailer
+- Search for specific movie or tv series
+- Filter them with your favorite category
+- View the details such as description, score, cast etc.
+  
+  <br>
+
+## Movies Page
+
+![react-planet-movie](https://user-images.githubusercontent.com/60944453/181920286-ae906c67-abac-4a06-a7ef-7af7debfe23b.jpg)
+
+<br>
+
+## Tech Stack
+- ReactJS
+- Material UI 
+- Responsive Design
+- Flexbox
+- [The Movie Database](https://www.themoviedb.org/) API
+
+<br>
+
+## Detail Page
+
+![react-planet-movie2](https://user-images.githubusercontent.com/60944453/181920490-d19de662-20ec-41a2-aba4-cd4d59c1e6d2.png)
+
+<br>
+
 
 ## Available Scripts
 
@@ -28,43 +57,3 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
