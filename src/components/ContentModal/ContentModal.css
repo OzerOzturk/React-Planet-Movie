@@ -42,11 +42,12 @@
 }
 
 .ContentModal__title {
-  height: 12%;
-  font-size: 5vw;
+  height: 20%;
+  font-size: 4vw;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 15px;
 }
 
 .ContentModal__description {
