@@ -66,10 +66,15 @@ export default function ContentModal({ children, media_type, id }) {
   }, []);
 
   return (
-    <div>
-      <button type="button" className="media" onClick={handleOpen}>
+    <>
+      <div
+        className="media"
+        style={{ cursor: "pointer" }}
+        color="inherit"
+        onClick={handleOpen}
+      >
         {children}
-      </button>
+      </div>
       <Modal
         aria-labelledby="transition-modal-title"
         aria-describedby="transition-modal-description"
@@ -92,7 +97,7 @@ export default function ContentModal({ children, media_type, id }) {
                       ? `${img_500}/${content.poster_path}`
                       : unavailable
                   }
-                  className="Content_portrait"
+                  className="ContentModal__portrait"
                   alt={content.name || content.title}
                 />
                 <img
@@ -101,11 +106,11 @@ export default function ContentModal({ children, media_type, id }) {
                       ? `${img_500}/${content.backdrop_path}`
                       : unavailableLandscape
                   }
-                  className="Content_landscape"
+                  className="ContentModal__landscape"
                   alt={content.name || content.title}
                 />
-                <div className="ContentModal_about">
-                  <span className="ContentModal_title">
+                <div className="ContentModal__about">
+                  <span className="ContentModal__title">
                     {content.name || content.title} (
                     {(
                       content.first_air_date ||
@@ -117,7 +122,7 @@ export default function ContentModal({ children, media_type, id }) {
                   {content.tagline && (
                     <i className="tagline">{content.tagline} </i>
                   )}
-                  <span className="ContentModal_description">
+                  <span className="ContentModal__description">
                     {content.overview}
                   </span>
                   <div>
@@ -137,6 +142,6 @@ export default function ContentModal({ children, media_type, id }) {
           )}
         </Fade>
       </Modal>
-    </div>
+    </>
   );
 }
