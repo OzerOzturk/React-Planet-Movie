@@ -7,6 +7,8 @@ Movies and TV Series App 📽
 - Filter them with your favorite category
 - View the details such as description, score, cast etc.
   
+ ## Check out the [Demo](https://planetmovie.netlify.app/)
+
   <br>
 
 ## Movies Page
@@ -17,6 +19,7 @@ Movies and TV Series App 📽
 
 ## Tech Stack
 - ReactJS
+- React Router
 - Material UI 
 - Responsive Design
 - Flexbox
@@ -31,29 +34,27 @@ Movies and TV Series App 📽
 <br>
 
 
-## Available Scripts
+## How to run this app on your local machine?
 
-In the project directory, you can run:
+1. Clone the repo
+   ```sh
+   git clone https://github.com/OzerOzturk/React-Planet-Movie.git
+   ```
+2. Navigate to the project folder
 
-### `npm start`
+   ```sh
+   cd React-Planet-Movie
+   ```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Install dependencies
+   ```sh
+   npm install
+   ```
+4. Get an API key from  [TMDB](https://www.themoviedb.org/) and set your API key environment variable (.env)
+   ```sh
+   REACT_APP_API_KEY = your_api_key
+   ```
+5. Run the project
+   ```sh
+   npm start
+   ```
