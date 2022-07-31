@@ -10,14 +10,14 @@ import SearchIcon from "@material-ui/icons/Search";
 
 const useStyles = makeStyles({
   root: {
-    width: "60%",
-    marginRight: "20%",
-    marginLeft: "20%",
+    width: "80%",
+    marginRight: "10%",
+    marginLeft: "10%",
     position: "fixed",
     bottom: 0,
     backgroundColor: "#251572",
     zIndex: 100,
-    borderRadius: "5px 5px 0 0",
+    borderRadius: "10px 10px 0 0",
   },
 });
 
